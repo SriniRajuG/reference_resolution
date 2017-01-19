@@ -1,0 +1,130 @@
+{
+    "associations": {
+        "61cee1c2-9e78-4092-b016-e3546ab20c9f_4376aacb-e642-4357-a49a-d0b99f006093": "./Data/brand_category_assoc.json", 
+        "4376aacb-e642-4357-a49a-d0b99f006093_61cee1c2-9e78-4092-b016-e3546ab20c9f": "./Data/brand_category_assoc.json"
+    }, 
+    "4415d204-4cc7-40cd-b6ab-7da4ccbc2f40": {
+        "attribs": [
+            "ed1086f0-e8d2-4ae1-86c9-9366f51e9801", 
+            "96e38cc6-bd31-4052-a99d-0b0c587ffb99",
+            "66af1029-9fe7-4315-9ced-d86c7e880b99"
+        ], 
+        "params": {
+            "threshold": 0.2, 
+            "del": {}, 
+            "subs": {
+                "- ": 0.2, 
+                " -": 0.2
+            }, 
+            "ins": {
+                "aeiou": 0.2 
+            }
+        }, 
+        "class_info": "./Data/ci_4415d204-4cc7-40cd-b6ab-7da4ccbc2f40.json"
+    }, 
+    "output_ids": "./Data/inp.json_output_ids.json", 
+    "7d8f60cf-12ff-4cf1-8757-dbc5737d7353": {
+        "attribs": [
+            "ed1086f0-e8d2-4ae1-86c9-9366f51e9801", 
+            "96e38cc6-bd31-4052-a99d-0b0c587ffb99"
+        ], 
+        "params": {
+            "threshold": 0.2, 
+            "del": {}, 
+            "subs": {}, 
+            "ins": {}
+        }, 
+        "class_info": "./Data/ci_7d8f60cf-12ff-4cf1-8757-dbc5737d7353.json"
+    }, 
+    "7125acf3-ea27-47dc-be6f-3e94bf44ad57": {
+        "attribs": [
+            "ed1086f0-e8d2-4ae1-86c9-9366f51e9801", 
+            "96e38cc6-bd31-4052-a99d-0b0c587ffb99",
+            "66af1029-9fe7-4315-9ced-d86c7e880b99"
+        ], 
+        "params": {
+            "threshold": 0.2, 
+            "del": {
+                "- ": 0.2
+            }, 
+            "subs": {
+                "- ": 0.2, 
+                " -": 0.2
+            }, 
+            "ins": {
+                "aeiou": 0.2,
+                "- ": 0.2
+            }
+        }, 
+        "class_info": "./Data/ci_7125acf3-ea27-47dc-be6f-3e94bf44ad57.json"
+    }, 
+    "output_csv": "./Data/inp.json_output_csv.csv", 
+    "a0994dd6-d495-4138-8411-eb93750d9dba": {
+        "attribs": [
+            "ed1086f0-e8d2-4ae1-86c9-9366f51e9801", 
+            "96e38cc6-bd31-4052-a99d-0b0c587ffb99"
+        ], 
+        "params": {
+            "threshold": 0.2, 
+            "del": {}, 
+            "subs": {}, 
+            "ins": {}
+        }, 
+        "class_info": "./Data/ci_a0994dd6-d495-4138-8411-eb93750d9dba.json"
+    }, 
+    "output_error": "./Data/inp.json_output_error.txt", 
+    "masters": {
+        "ed1086f0-e8d2-4ae1-86c9-9366f51e9801": "./Data/BM.json", 
+        "66af1029-9fe7-4315-9ced-d86c7e880b99": "./Data/MM.json", 
+        "96e38cc6-bd31-4052-a99d-0b0c587ffb99": "./Data/CM.json"
+    }, 
+    "810b6842-d8dd-4758-85a2-8065b0e4f5d6": {
+        "attribs": [
+            "ed1086f0-e8d2-4ae1-86c9-9366f51e9801", 
+            "96e38cc6-bd31-4052-a99d-0b0c587ffb99"
+        ], 
+        "params": {
+            "threshold": 0.2, 
+            "del": {}, 
+            "subs": {}, 
+            "ins": {}
+        }, 
+        "class_info": "./Data/ci_810b6842-d8dd-4758-85a2-8065b0e4f5d6.json"
+    }, 
+    "unlabelled_SKUs": "./Data/5000_skus_fmcg_with_seg.json", 
+    "attribute_ids": "./Data/attribIDsFile.json", 
+    "5dc47a06-15f5-4525-a435-eff3a4a18106": {
+        "attribs": [
+            "ed1086f0-e8d2-4ae1-86c9-9366f51e9801", 
+            "96e38cc6-bd31-4052-a99d-0b0c587ffb99",
+            "66af1029-9fe7-4315-9ced-d86c7e880b99"
+        ], 
+        "params": {
+            "threshold": 0.1, 
+            "del": {}, 
+            "subs": {
+                "- ": 0.2, 
+                " -": 0.2
+            }, 
+            "ins": {
+                "aeiou": 0.2 
+            }
+        }, 
+        "class_info": "./Data/ci_5dc47a06-15f5-4525-a435-eff3a4a18106.json"
+    }, 
+    "7982ee7b-18df-4e3d-90e9-c2228bd4e722": {
+        "attribs": [
+            "ed1086f0-e8d2-4ae1-86c9-9366f51e9801", 
+            "96e38cc6-bd31-4052-a99d-0b0c587ffb99"
+        ], 
+        "params": {
+            "threshold": 0.2, 
+            "del": {}, 
+            "subs": {}, 
+            "ins": {}
+        }, 
+        "class_info": "./Data/ci_7982ee7b-18df-4e3d-90e9-c2228bd4e722.json"
+    }, 
+    "labelled_SKUs": "./Data/5000_skus_fmcg_with_seg.json",
+    "special_chars": ".,`'!@%*()[]{}"
+}
